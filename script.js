@@ -29,6 +29,7 @@ setTimeout(function(){
 var intervalContent;
 var intervalTitle;
 $("#btn__letter").on("click", function(){
+    audio.play();
     audio.volume=0.2;
     $(".box__letter").slideDown()
     setTimeout(function(){
